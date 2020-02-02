@@ -1,0 +1,87 @@
+.container {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.color {
+  --position:50%;
+  background: #416788;
+  background: linear-gradient(
+		to right, #370031 var(--position), #E4572E var(--position));
+}
+
+.el {
+   --position:50%;
+  text-align: center;
+  font-size: 300px;
+  background: #416788;
+  background: linear-gradient(
+		to right, #E4572E var(--position), #370031 var(--position)); 
+  
+  	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.el4 {
+   --position:50%;
+  text-align: center;
+  font-size: 300px;
+  background: #416788;
+  background: linear-gradient(
+		to right, #370031 var(--position), #E4572E var(--position)); 
+  
+  	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.color4 {
+  --position:50%;
+  background: #416788;
+  background: linear-gradient(
+		to right, #E4572E var(--position), #370031 var(--position));
+}
+
+.el3 {
+   --position:50%;
+  text-align: center;
+  font-size: 300px;
+  background: #416788;
+  background: linear-gradient(
+		to right, #022B3A var(--position), #F6AE2D var(--position)); 
+  
+  	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.color3 {
+  --position:50%;
+  background: #416788;
+  background: linear-gradient(
+		to right, #F6AE2D var(--position), #022B3A var(--position));
+}
+
+.el2 {
+   --position:50%;
+  text-align: center;
+  font-size: 300px;
+  background: #416788;
+  background: linear-gradient(
+		to right, #F6AE2D var(--position),#022B3A  var(--position)); 
+  
+  	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.color2 {
+  --position:50%;
+  background: #416788;
+  background: linear-gradient(
+		to right, #022B3A var(--position), #F6AE2D var(--position));
+}
